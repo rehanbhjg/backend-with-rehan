@@ -1,0 +1,17 @@
+{
+  "name": "backend_with_rehan",
+  "version": "1.0.0",
+  "description": "Learn Backend With Rehan",
+  "keywords": [
+    "javascript",
+    "backend",
+    "rehan"
+  ],
+  "license": "ISC",
+  "author": "Rehan Ali",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
