@@ -1,0 +1,32 @@
+$kind: http-request
+name: Register User
+method: POST
+url: 'http://localhost:8000/api/v1/users/register'
+order: 1000
+body:
+  type: formdata
+  content:
+    - key: fullName
+      type: text
+      value: ''
+      description: Full name of the user
+    - key: email
+      type: text
+      value: ''
+      description: Email address
+    - key: username
+      type: text
+      value: ''
+      description: Username (will be lowercased)
+    - key: password
+      type: text
+      value: ''
+      description: Password
+    - key: avatar
+      type: file
+      src: ''
+      description: Avatar image (required)
+    - key: coverImage
+      type: file
+      src: ''
+      description: Cover image (optional)
